@@ -19,6 +19,7 @@ namespace ABPDemo.Web.Host.Controllers
 
         public IActionResult Index()
         {
+
             return Redirect("/swagger");
         }
 
